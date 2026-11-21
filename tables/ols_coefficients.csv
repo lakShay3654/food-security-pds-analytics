@@ -1,0 +1,4 @@
+Term,Coef,SE,t,p,p (HC3 robust),CI low,CI high
+Intercept,52.243,5.3128,9.8334,0.0,0.0,41.434,63.052
+MPI headcount (pp),1.0745,0.1566,6.8637,0.0,0.0,0.756,1.3931
+Child underweight (pp),-0.3875,0.2414,-1.6048,0.1181,0.219,-0.8787,0.1037

@@ -1,0 +1,3 @@
+Coefficient,OLS estimate,OLS boot SD,OLS 95% CI,Ridge estimate,Ridge boot SD,Ridge 95% CI
+MPI (per SD),13.6634,2.1924,"[10.1, 18.6]",13.0205,2.016,"[9.6, 17.4]"
+Underweight (per SD),-3.1947,2.3226,"[-8.2, 0.7]",-2.7299,2.141,"[-7.2, 0.9]"

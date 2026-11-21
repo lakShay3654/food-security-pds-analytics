@@ -1,0 +1,4 @@
+Cluster,N,Mean MPI (%),Mean underweight (%),Mean total coverage (%),Mean PHH per 100,Mean AAY per 100,SD total coverage
+Low Need,18,8.346,19.022,51.976,42.329,6.453,15.083
+Moderate Need,9,17.206,32.611,63.277,53.227,7.236,6.459
+High Need,9,35.862,32.611,76.69,67.858,8.424,5.497

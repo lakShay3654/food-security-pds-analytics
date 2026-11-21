@@ -1,0 +1,7 @@
+Model,LOO R2,LOO RMSE,LOO MAE,In-sample R2,In-sample RMSE
+Mean-only baseline,-0.058,15.4961,12.2437,0.0,15.0657
+OLS: poverty only,0.559,10.0045,6.8646,0.6063,9.4536
+OLS: poverty + underweight,0.5564,10.0347,7.4086,0.6348,9.105
+OLS: poverty + underweight + log population,0.5536,10.0655,7.6644,0.6572,8.821
+Ridge (alpha = 1.0),0.5593,10.0014,7.2376,0.6336,9.1197
+Ridge (alpha tuned by LOO-CV),0.559,10.0044,7.1605,0.6313,9.148

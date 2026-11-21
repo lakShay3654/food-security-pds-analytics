@@ -1,0 +1,5 @@
+Outcome,LOO R2: mean only,LOO R2: MPI only,LOO R2: MPI + underweight,MPI slope per point (95% CI),Underweight adds (nested p)
+Total coverage (% of population),-0.06,0.56,0.56,0.92 (0.66 to 1.18),0.118
+PHH coverage (persons per 100 population),-0.06,0.59,0.59,0.88 (0.65 to 1.10),0.198
+AAY coverage (persons per 100 population),-0.06,0.09,0.09,0.10 (0.02 to 0.18),0.214
+AAY share of covered persons (%),-0.06,-0.1,-0.14,-0.05 (-0.19 to 0.10),0.674
