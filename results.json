@@ -1,0 +1,239 @@
+{
+  "total_row_pop": 12103.22,
+  "sum_units_pop": 12103.22,
+  "total_row_accepted": 8134.91,
+  "sum_units_accepted": 8134.94,
+  "mpi_unverified": [
+    "Andhra Pradesh",
+    "Arunachal Pradesh",
+    "Assam",
+    "Chattisgarh",
+    "Gujarat",
+    "Haryana",
+    "Himachal Pradesh",
+    "Karnataka",
+    "Madhya Pradesh",
+    "Maharashtra",
+    "Manipur",
+    "Meghalaya",
+    "Mizoram",
+    "Nagaland",
+    "Odisha",
+    "Rajasthan",
+    "Telangana",
+    "Tripura",
+    "Uttarakhand",
+    "West Bengal"
+  ],
+  "mal_unverified": [
+    "Ladakh"
+  ],
+  "adjustments": {
+    "Goa": "MPI corrected from 5.9 in the first version to the published 3.76",
+    "Chandigarh (DBT)": "MPI corrected from 5.0 in the first version to the published 5.97",
+    "Dadra and Nagar Haveli and Daman and Diu": "MPI baseline reports Dadra and Nagar Haveli (27.36) and Daman and Diu (6.82) separately; the merged value is their Census-2011 population-weighted mean",
+    "Jammu and Kashmir": "MPI baseline reports Jammu and Kashmir and Ladakh combined; NFHS-5 underweight is for J and K excluding Ladakh",
+    "Ladakh": "MPI: combined J and K plus Ladakh baseline value assigned to both; the underweight value should be confirmed in the NFHS-5 Ladakh fact sheet"
+  },
+  "cov_recompute_maxdiff": 0.2049999999999983,
+  "tier_sum_maxdiff": 0.010000000000001563,
+  "n_size_exactly5": 1,
+  "n_zero_aay_families": 1,
+  "aay_size_min": 2.4615384615384617,
+  "aay_size_max": 5.0,
+  "r_pm": 0.6050391043428283,
+  "rho_pm": 0.6349768332738568,
+  "r_py": 0.7786209777693877,
+  "rho_py": 0.8358007278318329,
+  "r_my": 0.33666889686458035,
+  "rho_my": 0.43544857768052514,
+  "r2_both": 0.6347565338291907,
+  "adjr2_both": 0.6126205661824751,
+  "r2_pov": 0.6062506270225572,
+  "adjr2_pov": 0.5946697631114559,
+  "F": 28.675346113607503,
+  "F_p": 6.061924420454128e-08,
+  "nested_F": 2.5755284125438225,
+  "nested_p": 0.11805679130660769,
+  "vif": 1.5774670014476868,
+  "b_pov_only": 0.9225308177260684,
+  "p_pov_only": 2.2536771470796495e-08,
+  "b_pov_only_ci": [
+    0.6634106473823078,
+    1.181650988069829
+  ],
+  "std_ols": [
+    13.663410004996686,
+    -3.19474800998442
+  ],
+  "std_ridge": [
+    13.020495418405382,
+    -2.729928205307946
+  ],
+  "alpha_cv": 1.795714494371641,
+  "sd_mpi": 12.715523758164444,
+  "bp_p": 0.38348469094716087,
+  "shapiro_p": 0.051087238359454244,
+  "resid_sum": 3.552713678800501e-14,
+  "rmse_insample": 9.10500658083363,
+  "n_cooks_gt_4n": 2,
+  "flagged": [
+    "Manipur",
+    "Andaman and Nicobar"
+  ],
+  "sens_slope": 0.853827720410201,
+  "sens_r2": 0.7502024708266612,
+  "sens_n": 34,
+  "tier": {
+    "total": {
+      "label": "Total coverage (% of population)",
+      "loo_r2_base": -0.05795918367346964,
+      "loo_r2_pov": 0.5590279058855168,
+      "loo_r2_both": 0.5563589926588552,
+      "loo_rmse_pov": 10.004481598359385,
+      "slope": 0.9225308177260684,
+      "slope_lo": 0.6634106473823078,
+      "slope_hi": 1.181650988069829,
+      "slope_p": 2.2536771470796495e-08,
+      "nested_p": 0.11805679130660769,
+      "below": [
+        "Andaman and Nicobar (-4.1)"
+      ],
+      "above": [
+        "Manipur (+2.9)"
+      ]
+    },
+    "phh": {
+      "label": "PHH coverage (persons per 100 population)",
+      "loo_r2_base": -0.05795918367346942,
+      "loo_r2_pov": 0.5912963582304733,
+      "loo_r2_both": 0.5850942856197658,
+      "loo_rmse_pov": 8.904525882426833,
+      "slope": 0.875171253341142,
+      "slope_lo": 0.6455731218327742,
+      "slope_hi": 1.1047693848495097,
+      "slope_p": 5.1917359020338804e-09,
+      "nested_p": 0.19757165990229322,
+      "below": [
+        "Andaman and Nicobar (-3.9)"
+      ],
+      "above": []
+    },
+    "aay": {
+      "label": "AAY coverage (persons per 100 population)",
+      "loo_r2_base": -0.05795918367346942,
+      "loo_r2_pov": 0.08927688514341892,
+      "loo_r2_both": 0.09268798041903414,
+      "loo_rmse_pov": 2.891966579878066,
+      "slope": 0.0999364860843411,
+      "slope_lo": 0.024530082022021338,
+      "slope_hi": 0.17534289014666085,
+      "slope_p": 0.010904324877826506,
+      "nested_p": 0.2138264006059044,
+      "below": [
+        "Chandigarh (-2.3)",
+        "Rajasthan (-2.1)"
+      ],
+      "above": [
+        "Tripura (+2.1)",
+        "Himachal Pradesh (+2.1)"
+      ]
+    },
+    "share": {
+      "label": "AAY share of covered persons (%)",
+      "loo_r2_base": -0.05795918367346942,
+      "loo_r2_pov": -0.09720882908533324,
+      "loo_r2_both": -0.14152063916461466,
+      "loo_rmse_pov": 5.603395482191712,
+      "slope": -0.04652766600716724,
+      "slope_lo": -0.19225347455318353,
+      "slope_hi": 0.09919814253884907,
+      "slope_p": 0.5207881439931826,
+      "nested_p": 0.6744677659755941,
+      "below": [
+        "Chandigarh (-2.5)"
+      ],
+      "above": [
+        "Himachal Pradesh (+2.9)",
+        "Andaman and Nicobar (+2.1)"
+      ]
+    }
+  },
+  "k_range": [
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "inertia": [
+    28.66298704985088,
+    19.452014355839268,
+    14.06211327675313,
+    9.297270729322586,
+    7.028452141873331
+  ],
+  "silhouette": [
+    0.4982649532540143,
+    0.435908831993161,
+    0.4196844093236185,
+    0.4535410875173818,
+    0.46509090253272745
+  ],
+  "best_k": 2,
+  "ari_seed_mean": 0.7054737415638456,
+  "ari_seed_min": 0.3519163763066202,
+  "ari_boot_mean": 0.7556605013457295,
+  "ari_boot_p05": 0.3519163763066202,
+  "ari_vs_original": 0.36905358037055586,
+  "members": {
+    "Low Need": [
+      "Arunachal Pradesh",
+      "Delhi",
+      "Goa",
+      "Haryana",
+      "Himachal Pradesh",
+      "Kerala",
+      "Manipur",
+      "Mizoram",
+      "Punjab",
+      "Sikkim",
+      "Tamil Nadu",
+      "Uttarakhand",
+      "Andaman and Nicobar",
+      "Lakshadweep",
+      "Chandigarh (DBT)",
+      "Puduchery (DBT)",
+      "Jammu and Kashmir",
+      "Ladakh"
+    ],
+    "Moderate Need": [
+      "Andhra Pradesh",
+      "Gujarat",
+      "Karnataka",
+      "Maharashtra",
+      "Nagaland",
+      "Telangana",
+      "Tripura",
+      "West Bengal",
+      "Dadra and Nagar Haveli and Daman and Diu"
+    ],
+    "High Need": [
+      "Assam",
+      "Bihar",
+      "Chattisgarh",
+      "Jharkhand",
+      "Madhya Pradesh",
+      "Meghalaya",
+      "Odisha",
+      "Rajasthan",
+      "Uttar Pradesh"
+    ]
+  },
+  "cluster_means": [
+    51.97611111111111,
+    63.27666666666667,
+    76.69
+  ],
+  "kw_p": 7.315007664204565e-05
+}
